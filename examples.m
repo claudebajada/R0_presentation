@@ -1,7 +1,12 @@
-cd /home/cbajada/matlab/COVID
+cd /path2data/COVID
 load COVID_cases.mat
 covid = imread('stay-at-home-4956906.png');
 
+SD = imread('StickDude.png');
+SDr = imread('StickDude_red.png');
+SDr2 = imread('StickDude_red_r2.png');
+SDr1 = imread('StickDude_red_r1.png');
+SDr1o = imread('StickDude_red_r1_o.png');
 
 %% Setup
 f = figure('units','normalized','outerposition',[0 0 1 1]);
